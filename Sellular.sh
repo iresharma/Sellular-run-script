@@ -4,14 +4,14 @@ if [[ $1 -eq 1 ]]; then
     code /Users/iresharma/Documents/API/NIEShop/
 fi
 osascript -e 'tell app "Terminal"
-    do script "python3 /Users/iresharma/Documents/API/NIEShop/app.py"
+    do script "python3 /Users/iresharma/Documents/API/Sellular-Python-Fauna-API/app.py"
 end tell'
 
 if [[ $2 -eq 1 ]]; then
     code /Users/iresharma/Documents/API/nieShop-chat-socket
 fi
 osascript -e 'tell app "Terminal"
-    do script "cd /Users/iresharma/Documents/API/nieShop-chat-socket; nodemon ."
+    do script "cd /Users/iresharma/Documents/API/Sellular-socket-io; nodemon ."
 end tell'
 
 if [[ $3 -eq 1 ]]; then
